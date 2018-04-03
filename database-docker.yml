@@ -10,4 +10,4 @@ services:
     env_file:
       - db_credentials.env
     volumes:
-      - /home/abra/IdeaProjects/Databases/db/universitydb/:/var/lib/postgresql/data/universitydb
+      - ./db/universitydb/:/var/lib/postgresql/data/universitydb
