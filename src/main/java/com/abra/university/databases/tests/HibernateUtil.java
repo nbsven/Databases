@@ -1,12 +1,9 @@
-package com.abra.university.databases;
+package com.abra.university.databases.tests;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import com.abra.university.databases.tests.entity.ExampleEntity;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.internal.SessionFactoryImpl;
 
 public class HibernateUtil {
 

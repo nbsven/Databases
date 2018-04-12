@@ -1,4 +1,6 @@
 .idea/
 *.iml
 target/
+META-INF/
+persistance.xml
 db_credentials.env

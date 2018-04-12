@@ -14,6 +14,6 @@
      <!--DB schema will be updated if needed -->
      <property name="hbm2ddl.auto">create</property>
 
-    <mapping class="com.abra.university.databases.ExampleEntity"/>
+    <mapping class="com.abra.university.databases.tests.entity.ExampleEntity"/>
   </session-factory>
 </hibernate-configuration>
